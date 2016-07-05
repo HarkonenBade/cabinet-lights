@@ -1,3 +1,6 @@
 *.dcm
-*.bak
+*bak
 *.bck
+*.bom
+*.net
+*.xml

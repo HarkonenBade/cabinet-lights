@@ -1,4 +1,4 @@
-update=04/07/2016 11:16:37
+update=05/07/2016 14:35:09
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=../libs/agg-kicad/agg-kicad
+LibName31=../libs/mic6211
+LibName32=../libs/xlamp-mx-3

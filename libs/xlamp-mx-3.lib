@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# XLAMP-MX-3
+#
+DEF XLAMP-MX-3 D 0 0 N Y 1 F N
+F0 "D" 0 -200 60 H V C CNN
+F1 "XLAMP-MX-3" 0 250 60 H V C CNN
+F2 "parts:XLAMP-MX-3" -100 -300 60 H I C CNN
+F3 "http://www.farnell.com/datasheets/1810580.pdf" 0 -200 60 H I C CNN
+F4 "1855576" 100 -100 60 H I C CNN "Farnell"
+DRAW
+P 2 0 1 0 -50 -75 -50 -65 N
+P 2 0 1 0 -50 -75 -40 -75 N
+P 2 0 1 0 -50 50 -50 -50 N
+P 2 0 1 0 -25 -75 -25 -65 N
+P 2 0 1 0 -25 -75 -15 -75 N
+P 2 0 1 0 -25 -50 -50 -75 N
+P 2 0 1 0 0 -50 -25 -75 N
+P 2 0 1 0 0 50 0 25 N
+P 4 0 1 0 -50 0 50 50 50 -50 -50 0 N
+X ~ 1 -150 0 100 R 25 25 1 1 P
+X ~ 2 150 0 100 L 25 25 1 1 P
+X EP 3 0 150 100 D 25 25 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

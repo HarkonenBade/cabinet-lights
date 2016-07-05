@@ -1,4 +1,4 @@
-update=04/07/2016 13:52:50
+update=05/07/2016 02:20:00
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=valves
 LibName30=../libs/ncp1077
 LibName31=../libs/ncp431
 LibName32=../libs/pot_sw
+LibName33=../libs/w750313861
