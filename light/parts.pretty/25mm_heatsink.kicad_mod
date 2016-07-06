@@ -1,8 +1,8 @@
-(module 25mm_heatsink (layer F.Cu) (tedit 577BCD72)
-  (fp_text reference HS1 (at 0 14) (layer F.SilkS)
+(module 25mm_heatsink (layer F.Cu) (tedit 577BD0E7)
+  (fp_text reference HS1 (at 0 14) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value HEATSINK (at 0 -14) (layer F.Fab)
+  (fp_text value HEATSINK (at 0 -14) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (pad 1 smd roundrect (at 0 0) (size 25 25) (layers F.Cu)(roundrect_rratio 0.1)
@@ -36,4 +36,9 @@
     (zone_connect 2))
   (pad 1 thru_hole circle (at -10 10) (size 5 5) (drill 2.2) (layers *.Cu *.Mask F.SilkS)
     (zone_connect 2))
+  (model ${KIPRJMOD}/parts.pretty/25mm_heatsink.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
