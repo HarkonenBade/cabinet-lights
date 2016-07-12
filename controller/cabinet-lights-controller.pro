@@ -1,4 +1,4 @@
-update=05/07/2016 02:20:00
+update=12/07/2016 02:36:37
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=../libs/ncp1077
 LibName31=../libs/ncp431
 LibName32=../libs/pot_sw
 LibName33=../libs/w750313861
+LibName34=C:/Users/tom/Desktop/sparkie/cabinet-lights/libs/50105c
